@@ -11,7 +11,7 @@ import {
      Switch,
      Route,
      useParams
-   } from "react-router-dom";
+   } from "react-router-dom";           
 function App() {
      return(
           //  <Form></Form>
@@ -30,20 +30,20 @@ function App() {
         //   </Switch>
         // </Router>
 
-     //    <Signup></Signup>
-     <Router>
-       <Switch>
-         <Route exact path="/" >
-             <List></List>
-         </Route>
-         <Route path="/add" >
-            <Add></Add>
-         </Route>
-         <Route path="/update">
-           <Update></Update>
-         </Route>
-       </Switch>
-     </Router>   
+        <Signup></Signup>
+    //  <Router>
+    //    <Switch>
+    //      <Route exact path="/" >
+    //          <List></List>
+    //      </Route>
+    //      <Route path="/add" >
+    //         <Add></Add>
+    //      </Route>
+    //      <Route path="/update">
+    //        <Update></Update>
+    //      </Route>
+    //    </Switch>
+    //  </Router>   
      )
 }
 export default App;
